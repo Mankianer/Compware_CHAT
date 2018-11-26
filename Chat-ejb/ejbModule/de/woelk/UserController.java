@@ -78,9 +78,9 @@ public class UserController implements Serializable {
 		}
 		
 		
-		for(int i = 0; i < 124; i++) {
-			addUser("" + i, hash("123" + i));
-		}
+//		for(int i = 0; i < 124; i++) {
+//			addUser("" + i, hash("123" + i));
+//		}
 	}
 
 	public boolean isUser(String name) {
